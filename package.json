@@ -1,7 +1,7 @@
 {
   "name": "tts-adapter",
   "display_name": "Text-to-Speech",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reads texts for you",
   "main": "index.js",
   "scripts": {
