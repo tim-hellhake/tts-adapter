@@ -1,7 +1,7 @@
 {
   "name": "tts-adapter",
   "display_name": "Text-to-Speech",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reads texts for you",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,6 @@
     "exec": "{nodeLoader} {path}",
     "schema": {
       "type": "object",
-      "required": [],
       "properties": {
         "messages": {
           "type": "array",
