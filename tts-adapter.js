@@ -17,7 +17,7 @@ class TtsDevice extends Device {
   constructor(adapter, config) {
     super(adapter, TtsDevice.name);
     this['@context'] = 'https://iot.mozilla.org/schemas/';
-    this.title = this.id;
+    this.title = 'TTS';
     this.description = 'Speaks to you';
     this.config = config;
 
