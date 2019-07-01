@@ -18,3 +18,12 @@ To read a text from a rule, you have to register an action with a predefined mes
 Go to the settings of the addon and add a rule with a name and a message of your choice.
 
 The tts device now provides a new action with the specified name you can use in a rule.
+
+## Raspberry Pi Setup
+
+To run this add-on on a Raspberry Pi, run the following command to install a
+local text-to-speech engine:
+
+```bash
+sudo apt-get install festival festvox-kallpc16k
+```
